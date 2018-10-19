@@ -1,5 +1,5 @@
 {
-    "name": "react-native-inviewport",
+    "name": "react-native-inwindow",
     "version": "0.0.1",
     "description": "Detects if a element is inside a ScrollView or a ListView and reports back",
     "main": "index.js",
@@ -13,14 +13,14 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/MiRinZhang/react-native-inviewport.git"
+        "url": "https://github.com/MiRinZhang/react-native-inwindow.git"
     },
     "author": "MirinZhang <mirinzhang@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/MiRinZhang/react-native-inviewport/issues"
+        "url": "https://github.com/MiRinZhang/react-native-inwindow/issues"
     },
-    "homepage": "https://github.com/MiRinZhang/react-native-inviewport",
+    "homepage": "https://github.com/MiRinZhang/react-native-inwindow",
     "dependencies": {
         "prop-types": "^15.6.2"
     }
