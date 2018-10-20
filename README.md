@@ -23,7 +23,10 @@ onViewChange = (isVisible) => {
 render() {
     return (
         <ScrollView style={{flex: 1}}>
-            <InWindow onChange={this.onViewChange}>
+            <InWindow
+                duration={100} // default is 100
+                active={true} // defautt is true
+                onChange={this.onViewChange}>
                 <View style={{flex: 1, height: 40, borderColot: '#f0f', borderColor: 1}}>
                     <Text>react-native-inwindow</Text>
                 </View>

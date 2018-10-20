@@ -55,7 +55,7 @@ export default class extends Component {
             return;
         }
 
-        this.interval = setInterval(this.watchingView, this.props.delay);
+        this.interval = setInterval(this.watchingView, this.props.duration);
     }
 
     watchingView() {

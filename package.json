@@ -1,6 +1,6 @@
 {
     "name": "react-native-inwindow",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Detects if a element is inside a ScrollView or a ListView and reports back",
     "main": "index.js",
     "scripts": {
