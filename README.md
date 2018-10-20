@@ -24,8 +24,8 @@ render() {
     return (
         <ScrollView style={{flex: 1}}>
             <InWindow
-                duration={100} // default is 100
-                active={true} // defautt is true
+                duration={100} // Intervals that check if the element is in the window. default is 100
+                active={true} // Check if the element is in the window. defautt is true
                 onChange={this.onViewChange}>
                 <View style={{flex: 1, height: 40, borderColot: '#f0f', borderColor: 1}}>
                     <Text>react-native-inwindow</Text>
