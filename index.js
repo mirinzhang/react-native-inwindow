@@ -69,7 +69,7 @@ export default class extends Component {
                 viewBottom: y + height,
                 viewWidth: x + width
             });
-            this.checkViewPostion();
+            this.checkViewPosition();
         });
     }
 
@@ -77,7 +77,7 @@ export default class extends Component {
         this.interval = clearInterval(this.interval);
     }
 
-    checkViewPostion() {
+    checkViewPosition() {
         const { height, width } = Dimensions.get('window'),
             { onChange } = this.props,
             { prevStatus, state } = this,
